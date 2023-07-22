@@ -415,3 +415,9 @@ Imports: stats, utils
 Suggests: knitr, plm, zoo, survival
 License: GPL (>= 2)
 MD5sum: 029a4a3850a0fcf6c947f4eb603bd34b
+
+Package: yaml
+Version: 2.3.7
+Suggests: RUnit
+License: BSD_3_clause + file LICENSE
+MD5sum: 3a24659619aeba48b3b7985ea47377d6

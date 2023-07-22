@@ -463,3 +463,10 @@ Suggests: knitr, plm, zoo, survival
 License: GPL (>= 2)
 MD5sum: 0a7da6c3b34b2974110a7d00fe9afa79
 NeedsCompilation: no
+
+Package: yaml
+Version: 2.3.7
+Suggests: RUnit
+License: BSD_3_clause + file LICENSE
+MD5sum: 38607c0b966d0b3b6c4f00419d251c8d
+NeedsCompilation: yes

@@ -90,6 +90,15 @@ License: MIT + file LICENSE
 MD5sum: 7c5b681dd3da578b5d154b2b01491c02
 NeedsCompilation: no
 
+Package: desc
+Version: 1.4.2
+Depends: R (>= 3.4)
+Imports: cli, R6, rprojroot, utils
+Suggests: callr, covr, gh, spelling, testthat, whoami, withr
+License: MIT + file LICENSE
+MD5sum: 99d01929865e08ea01627e9c3bbcff3f
+NeedsCompilation: no
+
 Package: digest
 Version: 0.6.32.1
 Depends: R (>= 3.3.0)
@@ -293,6 +302,15 @@ Enhances: winch
 License: MIT + file LICENSE
 MD5sum: d6f7d50e3e791e7a6c2b4f81a9427f84
 NeedsCompilation: yes
+
+Package: rprojroot
+Version: 2.0.3
+Depends: R (>= 3.0.0)
+Suggests: covr, knitr, lifecycle, mockr, rmarkdown, testthat (>=
+       3.0.0), withr
+License: MIT + file LICENSE
+MD5sum: 125f24470bdd8d62fe94298f00bf8010
+NeedsCompilation: no
 
 Package: sass
 Version: 0.4.6

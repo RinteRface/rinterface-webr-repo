@@ -80,6 +80,14 @@ Suggests: mockery, rstudioapi, testthat, withr
 License: MIT + file LICENSE
 MD5sum: a226a4487f3f018722b175243723b707
 
+Package: desc
+Version: 1.4.2
+Depends: R (>= 3.4)
+Imports: cli, R6, rprojroot, utils
+Suggests: callr, covr, gh, spelling, testthat, whoami, withr
+License: MIT + file LICENSE
+MD5sum: e360fcf6300feac3a5bd2eae5f709cf3
+
 Package: digest
 Version: 0.6.32.1
 Depends: R (>= 3.3.0)
@@ -261,6 +269,14 @@ Suggests: cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr,
 Enhances: winch
 License: MIT + file LICENSE
 MD5sum: 016c7b883b0fc90124a70e3eb2d6fde7
+
+Package: rprojroot
+Version: 2.0.3
+Depends: R (>= 3.0.0)
+Suggests: covr, knitr, lifecycle, mockr, rmarkdown, testthat (>=
+       3.0.0), withr
+License: MIT + file LICENSE
+MD5sum: b80862bd33082fb2dc293b8705546b85
 
 Package: sass
 Version: 0.4.6

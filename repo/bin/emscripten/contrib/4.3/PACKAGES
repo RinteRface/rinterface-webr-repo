@@ -262,6 +262,13 @@ Suggests: testthat, pryr
 License: MIT + file LICENSE
 MD5sum: 87a4a2b4f00bc9623a8d29f594b6b68a
 
+Package: rappdirs
+Version: 0.3.3
+Depends: R (>= 3.2)
+Suggests: roxygen2, testthat (>= 3.0.0), covr, withr
+License: MIT + file LICENSE
+MD5sum: 0fe1557aa49d1b3da6ffd118201d22d9
+
 Package: Rcpp
 Version: 1.0.10
 Imports: methods, utils

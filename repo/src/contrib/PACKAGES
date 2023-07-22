@@ -294,6 +294,14 @@ License: MIT + file LICENSE
 MD5sum: e84fd376e246738402e5529b6d52e101
 NeedsCompilation: no
 
+Package: rappdirs
+Version: 0.3.3
+Depends: R (>= 3.2)
+Suggests: roxygen2, testthat (>= 3.0.0), covr, withr
+License: MIT + file LICENSE
+MD5sum: cafdd5478c4a6094a9f3d7335fb4f889
+NeedsCompilation: yes
+
 Package: Rcpp
 Version: 1.0.10
 Imports: methods, utils

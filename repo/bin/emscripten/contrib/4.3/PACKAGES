@@ -65,6 +65,13 @@ Suggests: curl, testthat, xml2
 License: BSD_2_clause + file LICENSE
 MD5sum: f5440390ecbe45ae43093b86f99771d4
 
+Package: config
+Version: 0.3.1
+Imports: yaml (>= 2.1.19)
+Suggests: testthat, knitr, rmarkdown, covr, spelling
+License: GPL-3
+MD5sum: 06c33a471f2c0eb3b02478e8cd23a67c
+
 Package: cpp11
 Version: 0.4.3
 Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,

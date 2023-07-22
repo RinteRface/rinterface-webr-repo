@@ -73,6 +73,14 @@ License: BSD_2_clause + file LICENSE
 MD5sum: a6c6a1c1bf0ee0cc0cde65ce2d577cfc
 NeedsCompilation: yes
 
+Package: config
+Version: 0.3.1
+Imports: yaml (>= 2.1.19)
+Suggests: testthat, knitr, rmarkdown, covr, spelling
+License: GPL-3
+MD5sum: 74dd7bcded3e80bb47a6d0aa9494b6a0
+NeedsCompilation: no
+
 Package: cpp11
 Version: 0.4.3
 Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,

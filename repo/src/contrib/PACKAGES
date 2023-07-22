@@ -176,6 +176,20 @@ License: MIT + file LICENSE
 MD5sum: 443f8791f0ddd9ff124b53476e5bb967
 NeedsCompilation: no
 
+Package: golem
+Version: 0.4.1
+Depends: R (>= 3.0)
+Imports: attempt (>= 0.3.0), config, here, htmltools, rlang (>=
+       1.0.0), shiny (>= 1.5.0), utils, yaml
+Suggests: covr, cli (>= 2.0.0), crayon, devtools, dockerfiler (>=
+       0.2.0), knitr, pkgload, pkgbuild, pkgdown, processx, purrr,
+       rcmdcheck, roxygen2, rmarkdown, rsconnect, spelling, stringr,
+       testthat, tools, withr, attachment (>= 0.2.5), renv, usethis
+       (>= 1.6.0), fs, rstudioapi, desc
+License: MIT + file LICENSE
+MD5sum: 759f1070cd4edac4092ad96a4a407a55
+NeedsCompilation: no
+
 Package: htmltools
 Version: 0.5.5
 Depends: R (>= 2.14.1)

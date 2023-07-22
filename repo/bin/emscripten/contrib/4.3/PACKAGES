@@ -158,6 +158,19 @@ Suggests: covr, crayon, DBI, dplyr, forcats, ggplot2, knitr, magrittr,
 License: MIT + file LICENSE
 MD5sum: 98721db29b38c6e1e869e5fe7d623091
 
+Package: golem
+Version: 0.4.1
+Depends: R (>= 3.0)
+Imports: attempt (>= 0.3.0), config, here, htmltools, rlang (>=
+       1.0.0), shiny (>= 1.5.0), utils, yaml
+Suggests: covr, cli (>= 2.0.0), crayon, devtools, dockerfiler (>=
+       0.2.0), knitr, pkgload, pkgbuild, pkgdown, processx, purrr,
+       rcmdcheck, roxygen2, rmarkdown, rsconnect, spelling, stringr,
+       testthat, tools, withr, attachment (>= 0.2.5), renv, usethis
+       (>= 1.6.0), fs, rstudioapi, desc
+License: MIT + file LICENSE
+MD5sum: 6bda68b77556adad481c873454b44241
+
 Package: htmltools
 Version: 0.5.5
 Depends: R (>= 2.14.1)

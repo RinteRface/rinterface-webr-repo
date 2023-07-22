@@ -185,6 +185,14 @@ Suggests: covr, cli (>= 2.0.0), crayon, devtools, dockerfiler (>=
 License: MIT + file LICENSE
 MD5sum: 6bda68b77556adad481c873454b44241
 
+Package: here
+Version: 1.0.1
+Imports: rprojroot (>= 2.0.2)
+Suggests: conflicted, covr, fs, knitr, palmerpenguins, plyr, readr,
+       rlang, rmarkdown, testthat, uuid, withr
+License: MIT + file LICENSE
+MD5sum: 1d91087082f0754f462b2384fbe5a073
+
 Package: htmltools
 Version: 0.5.5
 Depends: R (>= 2.14.1)

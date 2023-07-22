@@ -206,6 +206,15 @@ License: MIT + file LICENSE
 MD5sum: 759f1070cd4edac4092ad96a4a407a55
 NeedsCompilation: no
 
+Package: here
+Version: 1.0.1
+Imports: rprojroot (>= 2.0.2)
+Suggests: conflicted, covr, fs, knitr, palmerpenguins, plyr, readr,
+       rlang, rmarkdown, testthat, uuid, withr
+License: MIT + file LICENSE
+MD5sum: 67367162e286ae95c06abb6e7d70dd75
+NeedsCompilation: no
+
 Package: htmltools
 Version: 0.5.5
 Depends: R (>= 2.14.1)

@@ -151,6 +151,13 @@ License: MIT + file LICENSE
 MD5sum: c453b4514da3717af5d5b97f0e3d2415
 NeedsCompilation: yes
 
+Package: farver
+Version: 2.1.1
+Suggests: covr, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 8a6b2956ba4d30911c3f2e8593eac362
+NeedsCompilation: yes
+
 Package: fastmap
 Version: 1.1.1
 Suggests: testthat (>= 2.1.1)

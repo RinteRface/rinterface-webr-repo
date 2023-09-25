@@ -283,6 +283,13 @@ Imports: tools
 License: GPL
 MD5sum: d698d1d2ccf9582ab5fe6be01781b4ff
 
+Package: munsell
+Version: 0.5.0
+Imports: colorspace, methods
+Suggests: ggplot2, testthat
+License: MIT + file LICENSE
+MD5sum: 4cd1938f484de88010bab2aae5e63344
+
 Package: pkgbuild
 Version: 1.4.2
 Depends: R (>= 3.4)

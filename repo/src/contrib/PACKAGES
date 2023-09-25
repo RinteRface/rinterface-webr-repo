@@ -387,6 +387,13 @@ License: MIT + file LICENSE
 MD5sum: 125f24470bdd8d62fe94298f00bf8010
 NeedsCompilation: no
 
+Package: rstudioapi
+Version: 0.15.0
+Suggests: testthat, knitr, rmarkdown, clipr, covr
+License: MIT + file LICENSE
+MD5sum: 25e0dafe967089165efab98158a0d6da
+NeedsCompilation: no
+
 Package: sass
 Version: 0.4.6
 Imports: fs, rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs

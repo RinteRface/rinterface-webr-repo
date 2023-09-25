@@ -346,6 +346,12 @@ Suggests: covr, knitr, lifecycle, mockr, rmarkdown, testthat (>= 3.0.0),
 License: MIT + file LICENSE
 MD5sum: b80862bd33082fb2dc293b8705546b85
 
+Package: rstudioapi
+Version: 0.14
+Suggests: testthat, knitr, rmarkdown, clipr, covr
+License: MIT + file LICENSE
+MD5sum: 127661fa6fc92d9881c01368fd7e92ba
+
 Package: sass
 Version: 0.4.6
 Imports: fs, rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs

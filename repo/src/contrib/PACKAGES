@@ -409,6 +409,17 @@ License: MIT + file LICENSE
 MD5sum: fb188e1129cca127e7790ffccff4e1f7
 NeedsCompilation: yes
 
+Package: scales
+Version: 1.2.1
+Depends: R (>= 3.2)
+Imports: farver (>= 2.0.3), labeling, lifecycle, munsell (>= 0.5), R6,
+        RColorBrewer, rlang (>= 1.0.0), viridisLite
+Suggests: bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi,
+        testthat (>= 3.0.0), waldo (>= 0.4.0)
+License: MIT + file LICENSE
+MD5sum: 4c8e880115111cd19c59890ddd3ccc2b
+NeedsCompilation: no
+
 Package: shiny
 Version: 1.7.4.9002
 Depends: R (>= 3.0.2), methods

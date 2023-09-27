@@ -187,14 +187,14 @@ MD5sum: cacbbeac6797eb71e76665758829ad2b
 NeedsCompilation: no
 
 Package: fs
-Version: 1.6.1.9000
+Version: 1.6.3
 Depends: R (>= 3.4)
 Imports: methods
 Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling,
         testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
 License: MIT + file LICENSE
-MD5sum: f86603ff56255da88f5be6d429058a70
-NeedsCompilation: no
+MD5sum: ceb9de07edc026670a80ffcca9746a31
+NeedsCompilation: yes
 
 Package: glue
 Version: 1.6.2

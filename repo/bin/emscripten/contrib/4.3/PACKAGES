@@ -29,6 +29,14 @@ Suggests: knitr, rmarkdown, testthat (>= 2.1.0), golem, DT, thematic (>=
 License: GPL (>= 2) | file LICENSE
 MD5sum: 66b493a92dbaedfada07bbec2a84b3d8
 
+Package: bsicons
+Version: 0.1.1
+Depends: R (>= 2.10)
+Imports: utils, cli, rlang, htmltools
+Suggests: testthat, withr, processx, webshot2, bslib
+License: MIT + file LICENSE
+MD5sum: f7c382d43e63214f8033d3528b8a7850
+
 Package: bslib
 Version: 0.5.0
 Depends: R (>= 2.10)

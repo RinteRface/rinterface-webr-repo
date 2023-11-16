@@ -362,6 +362,16 @@ Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
 License: GPL (>= 2)
 MD5sum: c7c53a12b3991619347c9278e7822383
 
+Package: renv
+Version: 1.0.3
+Imports: utils
+Suggests: BiocManager, cli, covr, cpp11, devtools, gitcreds, jsonlite,
+       knitr, miniUI, packrat, pak, R6, remotes, reticulate,
+       rmarkdown, rstudioapi, shiny, testthat, uuid, waldo, yaml,
+       webfakes
+License: MIT + file LICENSE
+MD5sum: 11a2364a7f9e77b419b29d0a2792bc03
+
 Package: rlang
 Version: 1.1.1
 Depends: R (>= 3.5.0)

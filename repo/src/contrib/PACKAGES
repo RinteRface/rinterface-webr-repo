@@ -396,6 +396,17 @@ License: GPL (>= 2)
 MD5sum: 32f9331801336420cae8a04d8c3c9e17
 NeedsCompilation: yes
 
+Package: renv
+Version: 1.0.3
+Imports: utils
+Suggests: BiocManager, cli, covr, cpp11, devtools, gitcreds, jsonlite,
+       knitr, miniUI, packrat, pak, R6, remotes, reticulate,
+       rmarkdown, rstudioapi, shiny, testthat, uuid, waldo, yaml,
+       webfakes
+License: MIT + file LICENSE
+MD5sum: 0a136b5a728fb43098d212a92a0e2b26
+NeedsCompilation: no
+
 Package: rlang
 Version: 1.1.1
 Depends: R (>= 3.5.0)

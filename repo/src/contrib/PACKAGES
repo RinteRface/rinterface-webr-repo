@@ -298,6 +298,18 @@ License: MIT + file LICENSE
 MD5sum: 023bff9f9b99ca56ed01b705a41a8bed
 NeedsCompilation: no
 
+Package: logger
+Version: 0.2.2
+Imports: utils
+Suggests: glue, pander, jsonlite, crayon, slackr (>= 1.4.1),
+       RPushbullet, telegram, testthat, covr, knitr, rmarkdown,
+       devtools, roxygen2, parallel, rsyslog, shiny, callr, txtq,
+       botor, R.utils, syslognet
+Enhances: logging, futile.logger, log4r
+License: AGPL-3
+MD5sum: 379ee674e7ca9aa384e01a338aaf1322
+NeedsCompilation: no
+
 Package: magrittr
 Version: 2.0.3
 Depends: R (>= 3.4.0)

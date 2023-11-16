@@ -275,6 +275,17 @@ Suggests: covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),
 License: MIT + file LICENSE
 MD5sum: 9ef7ef2caf7b08b5ec18b6ad18ec27e7
 
+Package: logger
+Version: 0.2.2
+Imports: utils
+Suggests: glue, pander, jsonlite, crayon, slackr (>= 1.4.1),
+       RPushbullet, telegram, testthat, covr, knitr, rmarkdown,
+       devtools, roxygen2, parallel, rsyslog, shiny, callr, txtq,
+       botor, R.utils, syslognet
+Enhances: logging, futile.logger, log4r
+License: AGPL-3
+MD5sum: 2225755881f8fd5fc26861cc662e89be
+
 Package: magrittr
 Version: 2.0.3
 Depends: R (>= 3.4.0)

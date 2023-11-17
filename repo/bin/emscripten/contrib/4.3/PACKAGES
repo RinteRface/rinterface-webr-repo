@@ -162,6 +162,16 @@ Suggests: bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2,
 License: MIT + file LICENSE
 MD5sum: 76a2db72b72438720575e390759ddbc9
 
+Package: echarts4r
+Version: 0.4.5
+Depends: R (>= 4.1.0)
+Imports: htmlwidgets, dplyr (>= 0.7.0), purrr, countrycode, broom,
+       shiny, scales, corrplot, htmltools, jsonlite, rstudioapi
+Suggests: tidyr, testthat, knitr, rmarkdown, covr, data.tree, leaflet,
+       tibble
+License: Apache License (>= 2.0)
+MD5sum: 36b57f1cf13575d3f6fc380f71332f47
+
 Package: ellipsis
 Version: 0.3.2
 Depends: R (>= 3.2)

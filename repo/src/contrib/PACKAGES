@@ -171,6 +171,17 @@ License: MIT + file LICENSE
 MD5sum: 4e5aacdbe9cb21fe53f39902cdf845b5
 NeedsCompilation: yes
 
+Package: echarts4r
+Version: 0.4.5
+Depends: R (>= 4.1.0)
+Imports: htmlwidgets, dplyr (>= 0.7.0), purrr, countrycode, broom,
+       shiny, scales, corrplot, htmltools, jsonlite, rstudioapi
+Suggests: tidyr, testthat, knitr, rmarkdown, covr, data.tree, leaflet,
+       tibble
+License: Apache License (>= 2.0)
+MD5sum: 65b966e8698383740a3112f5cac81424
+NeedsCompilation: no
+
 Package: ellipsis
 Version: 0.3.2
 Depends: R (>= 3.2)

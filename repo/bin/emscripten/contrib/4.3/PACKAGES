@@ -252,6 +252,15 @@ Enhances: knitr
 License: GPL (>= 2)
 MD5sum: 03653a4120e079d54280af2337e70766
 
+Package: htmlwidgets
+Version: 1.6.2
+Imports: grDevices, htmltools (>= 0.5.4), jsonlite (>= 0.9.16), yaml,
+       knitr (>= 1.8), rmarkdown
+Suggests: testthat
+Enhances: shiny (>= 1.1)
+License: MIT + file LICENSE
+MD5sum: 9b470721de95c7293df3a3072216a25f
+
 Package: httpuv
 Version: 1.6.6.9000
 Imports: Rcpp (>= 1.0.7), utils, R6, promises, later (>= 0.8.0), webr

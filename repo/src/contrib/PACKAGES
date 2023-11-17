@@ -590,6 +590,18 @@ License: MIT + file LICENSE
 MD5sum: 44ab6867eeed781814f319fb61aaba75
 NeedsCompilation: no
 
+Package: vctrs
+Version: 0.6.3
+Depends: R (>= 3.5.0)
+Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)
+Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
+       pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>=
+       3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2,
+       zeallot
+License: MIT + file LICENSE
+MD5sum: 60946dc7e0dc1ba8d12d853dfdf3bc62
+NeedsCompilation: yes
+
 Package: waiter
 Version: 0.2.5
 Imports: R6, shiny, htmltools

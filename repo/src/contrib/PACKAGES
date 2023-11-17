@@ -156,6 +156,21 @@ License: GPL (>= 2)
 MD5sum: 2259e280977807c8cf12e830cdccc38c
 NeedsCompilation: no
 
+Package: dplyr
+Version: 1.1.3
+Depends: R (>= 3.5.0)
+Imports: cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>=
+       1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6,
+       rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0),
+       utils, vctrs (>= 0.6.0)
+Suggests: bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2,
+       knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr,
+       rmarkdown, RMySQL, RPostgreSQL, RSQLite, stringi (>= 1.7.6),
+       testthat (>= 3.1.5), tidyr (>= 1.3.0), withr
+License: MIT + file LICENSE
+MD5sum: 4e5aacdbe9cb21fe53f39902cdf845b5
+NeedsCompilation: yes
+
 Package: ellipsis
 Version: 0.3.2
 Depends: R (>= 3.2)
